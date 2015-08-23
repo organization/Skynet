@@ -1,16 +1,16 @@
 <?php
 
-namespace LevelUpper;
+namespace Skynet;
 
-use LevelUpper\database\PluginData;
+use Skynet\database\PluginData;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\command\PluginCommand;
 use pocketmine\utils\TextFormat;
-use LevelUpper\task\AutoSaveTask;
-use LevelUpper\database\Updater;
+use Skynet\task\AutoSaveTask;
+use Skynet\database\Updater;
 
-class LevelUpper extends PluginBase {
+class Skynet extends PluginBase {
 	private $database;
 	private $listenerLoader;
 	/**
@@ -27,8 +27,6 @@ class LevelUpper extends PluginBase {
 		$this->database = new PluginData ( $this );
 		$this->updater = new Updater ( $this );
 		$this->getServer ()->getScheduler ()->scheduleRepeatingTask ( new AutoSaveTask ( $this ), 12000 );
-		
-		$this->updater->setList ( $this->database->db );
 		$this->updater->run ();
 	}
 	/**

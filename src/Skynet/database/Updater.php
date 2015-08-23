@@ -1,20 +1,20 @@
 <?php
 
-namespace LevelUpper\database;
+namespace Skynet\database;
 
 use pocketmine\utils\Utils;
 use pocketmine\Server;
-use LevelUpper\task\UpdateAsyncTask;
-use LevelUpper\LevelUpper;
+use Skynet\task\UpdateAsyncTask;
+use Skynet\Skynet;
 use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
-use LevelUpper\task\CheckAsyncTask;
+use Skynet\task\CheckAsyncTask;
 
 class Updater {
 	private $list = [ ];
 	private $server;
 	private $plugin;
-	public function __construct(LevelUpper $plugin) {
+	public function __construct(Skynet $plugin) {
 		$this->server = Server::getInstance ();
 		$this->plugin = $plugin;
 	}

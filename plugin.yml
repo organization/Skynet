@@ -1,10 +1,5 @@
-name: LevelUpper
-main: LevelUpper\LevelUpper
-version: 1.0-Alpha
-author: hm
+name: Skynet
+main: Skynet\Skynet
+version: 1.9.8.4
+author: Cyberdyne
 api: [1.12.0]
-
-permissions:
- example:
-  descript: "example permission"
-  default: true

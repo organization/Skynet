@@ -1,6 +1,6 @@
 <?php
 
-namespace LevelUpper\database;
+namespace Skynet\database;
 
 use pocketmine\command\PluginCommand;
 use pocketmine\command\CommandSender;
@@ -23,7 +23,7 @@ class PluginData {
 	private $plugin;
 	public $messages, $db;
 	public $m_version = 1;
-	public $db_version = 1;
+	public $db_version = 2;
 	/**
 	 * Initialize the plug-in database
 	 *

@@ -1,6 +1,5 @@
 <?php
-//
-namespace LevelUpper\task;
+namespace Skynet\task;
 
 use pocketmine\scheduler\PluginTask;
 use pocketmine\plugin\Plugin;

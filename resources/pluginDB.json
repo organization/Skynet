@@ -1,7 +1,71 @@
 {
-    "db_version": 1,
+    "db_version": 2,
+    "Skynet": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Skynet\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Skynet\/raw\/master\/Skynet-release.phar"
+    },
     "SimpleArea": {
         "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SimpleArea\/raw\/master\/plugin.yml",
         "pharLink": "https:\/\/github.com\/HmHmmHm\/SimpleArea\/raw\/master\/SimpleArea-release.phar"
+    },
+    "Purge": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Purge\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Purge\/raw\/master\/Purge-release.phar"
+    },
+    "ChestGuard": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/ChestGuard\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/ChestGuard\/raw\/master\/ChestGuard-release.phar"
+    },
+    "THAAD": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/THAAD\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/THAAD\/raw\/master\/THAAD-release.phar"
+    },
+    "FixBiome": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/FixBiome\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/FixBiome\/raw\/master\/FixBiome-release.phar"
+    },
+    "InfiniteBlock": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/InfiniteBlock\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/InfiniteBlock\/raw\/master\/InfiniteBlock-release.phar"
+    },
+    "CreativeEconomy": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/CreativeEconomy\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/CreativeEconomy\/raw\/master\/CreativeEconomy-release.phar"
+    },
+    "EconomyGamble": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/EconomyGamble\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/EconomyGamble\/raw\/master\/EconomyGamble-release.phar"
+    },
+    "AnnouncePro": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/AnnouncePro\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/AnnouncePro\/raw\/master\/AnnouncePro-release.phar"
+    },
+    "EmailAuth": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/EmailAuth\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/EmailAuth\/raw\/master\/EmailAuth-release.phar"
+    },
+    "Gentleman": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Gentleman\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Gentleman\/raw\/master\/Gentleman-release.phar"
+    },
+    "Farms": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Farms\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Farms\/raw\/master\/Farms-release.phar"
+    },
+    "FloatingBoat": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/FloatingBoat\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/FloatingBoat\/raw\/master\/FloatingBoat-release.phar"
+    },
+    "HookShot": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/HookShot\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/HookShot\/raw\/master\/HookShot-release.phar"
+    },
+    "TAGBlock": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/TAGBlock\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/TAGBlock\/raw\/master\/TAGBlock-release.phar"
+    },
+    "CommandDefender": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/CommandDefender\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/CommandDefender\/raw\/master\/CommandDefender-release.phar"
     }
 }

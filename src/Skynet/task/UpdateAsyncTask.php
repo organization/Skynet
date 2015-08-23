@@ -1,35 +1,40 @@
 <?php
 
-namespace LevelUpper\task;
+namespace Skynet\task;
 
 use pocketmine\scheduler\AsyncTask;
-use LevelUpper\LevelUpper;
-use LevelUpper\database\Updater;
 use pocketmine\Server;
+use Skynet\Skynet;
+use Skynet\database\Updater;
 
-class CheckAsyncTask extends AsyncTask {
-	private $pluginName, $pluginYmlLink, $pharLink, $result;
-	public function __construct($pluginName, $pluginYmlLink, $pharLink) {
-		$this->pluginName = $pluginName;
-		$this->pluginYmlLink = $pluginYmlLink;
-		$this->pharLink = $pharLink;
+class UpdateAsyncTask extends AsyncTask {
+	private $pharName;
+	private $pluginPharPath;
+	private $pharUrl;
+	public function __construct($pharName, $pluginPharPath, $pharUrl) {
+		$this->pharName = $pharName;
+		$this->pluginPharPath = $pluginPharPath;
+		$this->pharUrl = $pharUrl;
 	}
 	public function onRun() {
-		$this->result = $this->download ( $this->pluginYmlLink );
+		$phar = $this->download ( $this->pharUrl );
+		unlink ( $this->pluginPharPath . $this->pharName );
+		
+		file_put_contents ( $this->pluginPharPath . $this->pharName, $phar );
 	}
 	public function onCompletion(Server $server) {
-		$plugin = $server->getPluginManager ()->getPlugin ( "LevelUpper" );
-		if (! $plugin instanceof LevelUpper)
+		$plugin = $server->getPluginManager ()->getPlugin ( "Skynet" );
+		if (! $plugin instanceof Skynet)
 			return;
 		$updater = $plugin->getUpdater ();
 		if (! $updater instanceof Updater)
 			return;
 		
-		$updater->asyncUpdate ( $this->pluginName, $this->result, $this->pharLink );
+		$updater->complete ( $this->pharName );
 	}
 	public function download($page, $timeout = 10, array $extraHeaders = []) {
 		$ch = curl_init ( $page );
-		curl_setopt ( $ch, CURLOPT_HTTPHEADER, \array_merge ( [ 
+		curl_setopt ( $ch, CURLOPT_HTTPHEADER,\array_merge ( [ 
 				"User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0 PocketMine-MP" 
 		], $extraHeaders ) );
 		curl_setopt ( $ch, CURLOPT_AUTOREFERER, \true );
