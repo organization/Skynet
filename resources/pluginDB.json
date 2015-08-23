@@ -1,0 +1,7 @@
+{
+    "db_version": 1,
+    "SimpleArea": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SimpleArea\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SimpleArea\/raw\/master\/SimpleArea-release.phar"
+    }
+}

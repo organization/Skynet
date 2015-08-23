@@ -1,0 +1,10 @@
+m_version: 1
+
+#(EN) ENGLISH
+eng: true
+eng-updated: "Plug-in is updated !"
+
+#(KO) KOREAN
+kor: true
+kor-updated: "플러그인을 업데이트 했습니다 !"
+
