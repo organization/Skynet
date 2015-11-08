@@ -1,5 +1,5 @@
 {
-    "db_version": 2,
+    "db_version": 3,
     "Skynet": {
         "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Skynet\/raw\/master\/plugin.yml",
         "pharLink": "https:\/\/github.com\/HmHmmHm\/Skynet\/raw\/master\/Skynet-release.phar"
@@ -63,6 +63,122 @@
     "TAGBlock": {
         "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/TAGBlock\/raw\/master\/plugin.yml",
         "pharLink": "https:\/\/github.com\/HmHmmHm\/TAGBlock\/raw\/master\/TAGBlock-release.phar"
+    },
+    "EntitiesCleaner": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/EntitiesCleaner\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/EntitiesCleaner\/raw\/master\/EntitiesCleaner-release.phar"
+    },
+    "LoadBalancer": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/LoadBalancer\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/LoadBalancer\/raw\/master\/LoadBalancer-release.phar"
+    },
+    "CustomPacket": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/CustomPacket\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/CustomPacket\/raw\/master\/plugin\/CustomPacket-release.phar"
+    },
+    "SnowHalation": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SnowHalation\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SnowHalation\/raw\/master\/SnowHalation-release.phar"
+    },
+    "MyDearest": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/MyDearest\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/MyDearest\/raw\/master\/MyDearest-release.phar"
+    },
+    "NydusCanal": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/NydusCanal\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/NydusCanal\/raw\/master\/NydusCanal-release.phar"
+    },
+    "MyDearest": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/MyDearest\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/MyDearest\/raw\/master\/MyDearest-release.phar"
+    },
+    "MoreTrees": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/MoreTrees\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/MoreTrees\/raw\/master\/MoreTrees-release.phar"
+    },
+    "autoReseter": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/autoReseter\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/autoReseter\/raw\/master\/autoReseter-release.phar"
+    },
+    "Colorful": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Colorful\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Colorful\/raw\/master\/Colorful-release.phar"
+    },
+    "GoodSPAWN": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/GoodSPAWN\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/GoodSPAWN\/raw\/master\/GoodSPAWN-release.phar"
+    },
+    "EDGE": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/EDGE\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/EDGE\/raw\/master\/EDGE-release.phar"
+    },
+    "automaticDoor": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/automaticDoor\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/automaticDoor\/raw\/master\/automaticDoor-release.phar"
+    },
+    "adminSay": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/adminSay\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/adminSay\/raw\/master\/adminSay-release.phar"
+    },
+    "IDEA": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/IDEA\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/IDEA\/raw\/master\/IDEA-release.phar"
+    },
+    "NotificationPlus": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/NotificationPlus\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/NotificationPlus\/raw\/master\/NotificationPlus-release.phar"
+    },
+    "SignCommand": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SignCommand\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SignCommand\/raw\/master\/SignCommand-release.phar"
+    },
+    "Sparklers": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Sparklers\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Sparklers\/raw\/master\/Sparklers-release.phar"
+    },
+    "SteveWarn": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SteveWarn\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SteveWarn\/raw\/master\/SteveWarn-release.phar"
+    },
+    "TICTOCK": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/TICTOCK\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/TICTOCK\/raw\/master\/TICTOCK-release.phar"
+    },
+    "TutorialMode": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/TutorialMode\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/TutorialMode\/raw\/master\/TutorialMode-release.phar"
+    },
+    "DamageEffect": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/DamageEffect\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/DamageEffect\/raw\/master\/DamageEffect-release.phar"
+    },
+    "SuperUser": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SuperUser\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SuperUser\/raw\/master\/SuperUser-release.phar"
+    },
+    "Trampoline": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/Trampoline\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/Trampoline\/raw\/master\/Trampoline-release.phar"
+    },
+    "PVPMoney": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/PVPMoney\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/PVPMoney\/raw\/master\/PVPMoney-release.phar"
+    },
+    "OverTheServer": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/OverTheServer\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/OverTheServer\/raw\/master\/OverTheServer-release.phar"
+    },
+    "RankManager": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/RankManager\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/RankManager\/raw\/master\/RankManager-release.phar"
+    },
+    "NetherWorld": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/NetherWorld\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/NetherWorld\/raw\/master\/NetherWorld-release.phar"
+    },
+    "SoldierGame": {
+        "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/SoldierGame\/raw\/master\/plugin.yml",
+        "pharLink": "https:\/\/github.com\/HmHmmHm\/SoldierGame\/raw\/master\/SoldierGame-release.phar"
     },
     "CommandDefender": {
         "pluginYmlLink": "https:\/\/github.com\/HmHmmHm\/CommandDefender\/raw\/master\/plugin.yml",

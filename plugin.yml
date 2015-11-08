@@ -1,6 +1,6 @@
 name: Skynet
 main: Skynet\Skynet
-version: 1.9.8.4
+version: 1.9.8.5
 author: Cyberdyne
 api:
 - 1.12.0
